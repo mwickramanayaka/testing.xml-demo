@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-26T23:22:36 IST" name="Suite1" finished-at="2021-05-26T23:23:16 IST" duration-ms="40512">
+    <groups>
+    </groups>
+    <test started-at="2021-05-26T23:22:36 IST" name="test on chrome" finished-at="2021-05-26T23:22:58 IST" duration-ms="22207">
+      <class name="test.test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.test@55b7a4e0]" started-at="2021-05-26T23:22:36 IST" name="setUp" finished-at="2021-05-26T23:22:39 IST" duration-ms="3235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:test.test@55b7a4e0]" started-at="2021-05-26T23:22:39 IST" name="test1" finished-at="2021-05-26T23:22:56 IST" duration-ms="17151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.test@55b7a4e0]" started-at="2021-05-26T23:22:56 IST" name="tearDown" finished-at="2021-05-26T23:22:58 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.test -->
+    </test> <!-- test on chrome -->
+    <test started-at="2021-05-26T23:22:36 IST" name="test on firefox" finished-at="2021-05-26T23:22:59 IST" duration-ms="23547">
+      <class name="test.test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.test@9225652]" started-at="2021-05-26T23:22:36 IST" name="setUp" finished-at="2021-05-26T23:22:47 IST" duration-ms="11192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:test.test@9225652]" started-at="2021-05-26T23:22:47 IST" name="test1" finished-at="2021-05-26T23:22:57 IST" duration-ms="10274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.test@9225652]" started-at="2021-05-26T23:22:57 IST" name="tearDown" finished-at="2021-05-26T23:22:59 IST" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.test -->
+    </test> <!-- test on firefox -->
+    <test started-at="2021-05-26T23:22:58 IST" name="test2 on firefox" finished-at="2021-05-26T23:23:16 IST" duration-ms="18281">
+      <class name="test.test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.test@6973b51b]" started-at="2021-05-26T23:22:58 IST" name="setUp" finished-at="2021-05-26T23:23:04 IST" duration-ms="6449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:test.test@6973b51b]" started-at="2021-05-26T23:23:04 IST" name="test1" finished-at="2021-05-26T23:23:14 IST" duration-ms="10096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.test@6973b51b]" started-at="2021-05-26T23:23:14 IST" name="tearDown" finished-at="2021-05-26T23:23:16 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.test -->
+    </test> <!-- test2 on firefox -->
+  </suite> <!-- Suite1 -->
+</testng-results>
